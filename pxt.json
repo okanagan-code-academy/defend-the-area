@@ -2,7 +2,12 @@
     "name": "defend-the-area",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.2.1",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
+        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.4.1",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0"
     },
     "files": [
         "main.blocks",
@@ -26,7 +31,7 @@
     "palette": [
         "#000000",
         "#f4f4f4",
-        "#b13e53",
+        "#FF4013",
         "#a7f070",
         "#ef7d57",
         "#ffcd75",
